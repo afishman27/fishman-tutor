@@ -1,0 +1,86 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border:10px solid #000000
+}
+.navigation a:hover{ /*to highlight navigation when curser is over it*/
+    background-color:gray;
+    
+}
+    
+li {
+    float: left;
+}
+
+li a { /* affects the anchors within the li*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border:10px solid #333;
+}
+
+body {
+    /*background-color: #D3D3D3;*/
+    font-family: "Verdana",  Sans-serif;
+    text-align:center;
+    background-image: url('../images/pencils.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    color: #333;
+    font-style: italic;
+    border:10px solid #333;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p { font-size: 30px;
+
+    
+}
+
+div{
+    color: #333;
+    font-size: 25px;
+    background-color: #FFFFFF;
+    border:10px solid #333;
+    text-align:center;
+    display: block;
+    width: 55%;
+}
+
+.services1{ /*used for all pages*/
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    border:10px solid #000000;
+    color: white;
+    width: 55%;
+}
+
+.picture{ /*picture for services page*/
+    text-align:left;
+    display: block;
+    width: 150%;
+    padding: 1%;
+
+}
